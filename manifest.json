@@ -1,0 +1,19 @@
+{
+  "name"              : "Google by ペッペ教™",
+  "short_name"        : "Google by ペッペ教™",
+  "description"       : "Google 検索のできるペッペ教™のポータルサイト！",
+  "start_url"         : "https://pp-pixel.github.io/ggnonsc/",
+  "id"         : "ggnonsc",
+  "display"           : "standalone",
+  "background_color"  : "#202124",
+  "theme_color"       : "#202124",
+  "icons": [{
+      "src"           : "https://pp-pixel.github.io/ggnonsc/icon-192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    }, {
+      "src"           : "https://pp-pixel.github.io/ggnonsc/icon-256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+  }]
+}
