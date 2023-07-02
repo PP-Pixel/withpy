@@ -1,6 +1,6 @@
 {
-  "name"              : "Google by ペッペ教™",
-  "short_name"        : "Google by ペッペ教™",
+  "name"              : "ペッペ教™",
+  "short_name"        : "ペッペ教™",
   "description"       : "Google 検索のできるペッペ教™のポータルサイト！",
   "start_url"         : "https://pp-pixel.github.io/ggnonsc/",
   "id"         : "ggnonsc",
