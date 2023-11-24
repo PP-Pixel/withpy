@@ -1,7 +1,7 @@
 {
-  "name"              : "ペッペ教™",
-  "short_name"        : "ペッペ教™",
-  "description"       : "Google 検索のできるペッペ教™のポータルサイト！",
+  "name"              : "WithPy™",
+  "short_name"        : "WithPy™",
+  "description"       : "Google 検索のできるWithPy™のポータルサイト！",
   "start_url"         : "https://pp-pixel.github.io/ggnonsc/",
   "id"         : "ggnonsc",
   "display"           : "standalone",
