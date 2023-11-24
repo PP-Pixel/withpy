@@ -1,7 +1,7 @@
 {
   "name"              : "WithPy™",
   "short_name"        : "WithPy™",
-  "description"       : "Google 検索のできるWithPy™のポータルサイト！",
+  "description"       : "Google 検索のできるWithPy™のポータルサイト",
   "start_url"         : "https://pp-pixel.github.io/ggnonsc/",
   "id"         : "ggnonsc",
   "display"           : "standalone",
