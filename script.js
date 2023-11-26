@@ -14,6 +14,6 @@ document.addEventListener("keydown", function(event) {
 
   // カウンターが配列の長さになったら、別のページにリダイレクトする
   if (counter === konamiCodes.length) {
-    window.location.href = "https://pp-pixel.github.io/ggnonsc/Google/";
+    window.location.href = "https://pp-pixel.github.io/ggnonsc/index/";
   }
 });

@@ -1,11 +1,351 @@
+<!--Copyright 2023 Nagano Creative Science Club HP Draft -->
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images</title>
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../icon-500.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon-500.png"><!-- ホームページの正式なURL -->
+    <link rel="canonical" href="https://pp-pixel.github.io/ggnonsc/">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1″ /><!-- SNSに埋め込みしたときのURL -->
+    <meta property="og:url" content="https://pp-pixel.github.io/ggnonsc/" /><!-- ページの種類 -->
+    <meta property="og:type" content="website" /><!-- SNSに埋め込みしたときのタイトル -->
+    <meta property="og:title" content="WithPy™" /><!-- SNSに埋め込みしたときの説明文 -->
+    <meta property="og:description" content="WithPy™のアイコンやロゴのリンク集" />
+    <!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+    <meta property="og:site_name" content="WithPy™" /><!-- SNSに埋め込みしたときのイメージ画像 -->
+    <meta property="og:image" content="https://pp-pixel.github.io/ggnonsc/WithPybig.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="dark" name="color-scheme">
+    <meta content="origin" name="referrer">
+    <meta content="WithPybig.png" itemprop="image"><!-- ServiceWorker -->
+    <link rel="manifest" href="../manifest.json">
+    <script>if ("serviceWorker" in navigator) { window.addEventListener("load", function () { navigator.serviceWorker.register("./sw.js").then(function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); }, function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); }); }); }</script>
+    <title>WithPy™ Images</title>
+    <script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
+    <script
+        src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+    <!-- ServiceWorker -->
+    <link rel="manifest" href="https://pp-pixel.github.io/ggnonsc/manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("../sw.js").then(
+                    function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+                    function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+            });
+        }
+    </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/scroll-bar.css">
+    <style>
+        footer {
+            margin-top: 10px;
+        }
+
+        main {
+            margin-top: 10px;
+        }
+
+        .img {
+            background-color: white;
+            width: 95%;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        .list .btn a {
+            border-radius: 20px;
+        }
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+        type="text/javascript"></script>
 </head>
+
 <body>
-    
+
+    <div id="container">
+
+        <header>
+
+            <div id="logo">
+                <h1><a href="../"><img src="../WithPy_Cat_.svg" alt="WithPy™"></a></h1>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="img">
+                <div id="icon"></div>
+                <h2>Images</h2>
+
+                <div class="list-container">
+                    <div class="list blur">
+                        <figure><img src="../icon-192.png" alt="192px"></figure>
+                        <div class="text">
+                            <h4>icon-192(PNG/背景透過)</h4>
+                            <p>192px ✕ 192px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../icon-192.png" data-lightbox="images"
+                                    data-title="icon-192">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../icon-192.png" target="_blank">Link</a></p>
+                        <span class="new">icon</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../icon-256.png" alt="256px"></figure>
+                        <div class="text">
+                            <h4>icon-256(PNG/背景透過)</h4>
+                            <p>256px ✕ 256px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../icon-256.png" data-lightbox="images"
+                                    data-title="icon-256">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../icon-256.png" target="_blank">Link</a></p>
+                        <span class="new">icon</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../icon-500.png" alt=""></figure>
+                        <div class="text">
+                            <h4>icon-500(PNG/背景透過)</h4>
+                            <p>500px ✕ 500px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../icon-500.png" data-lightbox="images"
+                                    data-title="icon-500">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../icon-500.png" target="_blank">Link</a></p>
+                        <span class="new">icon</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../icon-1000.png" alt=""></figure>
+                        <div class="text">
+                            <h4>icon-1000(PNG/背景在り)</h4>
+                            <p>1000px ✕ 1000px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../icon-1000.png" data-lightbox="images"
+                                    data-title="icon-1000">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../icon-1000.png" target="_blank">Link</a></p>
+                        <span class="new">icon</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../withpy_site-ogp.webp" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(WEBP/OGP)</h4>
+                            <p>1200px ✕ 630px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../withpy_site-ogp.webp" data-lightbox="images"
+                                    data-title="Logo(WEBP/OGP)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../withpy_site-ogp.webp" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../withpy_site.webp" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(WEBP/横長)</h4>
+                            <p>1500px ✕ 500px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../withpy_site.webp" data-lightbox="images"
+                                    data-title="Logo(WEBP/横長)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../withpy_site.webp" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPy.svg" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(SVG/Black)</h4>
+                            <p>背景透過</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPy.svg" data-lightbox="images"
+                                    data-title="Logo(SVG/Black)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPy.svg" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPy_.svg" alt="" style="background-color: #00000090;"></figure>
+                        <div class="text">
+                            <h4>Logo(SVG/White)</h4>
+                            <p>背景透過</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPy_.svg" data-lightbox="images"
+                                    data-title="Logo(SVG/White)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPy_.svg" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPy_orange.svg" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(SVG/Orange)</h4>
+                            <p>背景透過</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPy_orange.svg" data-lightbox="images"
+                                    data-title="Logo(SVG/Orange)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPy_.svg" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPy_Cat.png" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(PNG/Cat)</h4>
+                            <p>1000px ✕ 654px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPy_Cat.png" data-lightbox="images"
+                                    data-title="Logo(PNG/Cat)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPy_Cat.png" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPy_Cat.svg" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(SVG/Cat/Black)</h4>
+                            <p>背景透過</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPy_Cat.svg" data-lightbox="images"
+                                    data-title="Logo(SVG/Cat/Black)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPy_Cat.svg" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPy_Cat_.svg" alt="" style="background-color: #00000090;"></figure>
+                        <div class="text">
+                            <h4>Logo(SVG/Cat/White)</h4>
+                            <p>背景透過</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPy_Cat_.svg" data-lightbox="images"
+                                    data-title="Logo(SVG/Cat/White)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPy_Cat_.svg" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPyYT.png" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(PNG/YouTube)</h4>
+                            <p>2560px ✕ 1440px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPyYT.png" data-lightbox="images"
+                                    data-title="Logo(PNG/YouTube)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPyYT.png" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                    <div class="list blur">
+                        <figure><img src="../WithPybig.png" alt=""></figure>
+                        <div class="text">
+                            <h4>Logo(PNG/YouTube/Big)</h4>
+                            <p>2560px ✕ 1440px</p>
+                        </div>
+                        <figure>
+                            <p class="btn"><a href="../WithPybig.png" data-lightbox="images"
+                                    data-title="Logo(PNG/YouTube/Big)">詳しくみる</a></p>
+                        </figure>
+                        <p class="btn"><a href="../WithPyYT.png" target="_blank">Link</a></p>
+                        <span class="new">Logo</span>
+                    </div>
+
+                </div>
+                <!--/.list-container-->
+                <p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+            </section>
+            <style>
+                .hptop a {
+                    /* display: block; */
+                    text-decoration: none;
+                    text-align: center;
+                    z-index: 99;
+                    position: fixed;
+                    right: 3%;
+                    bottom: 80px;
+                    background-color: bisque;
+                    color: #ff8000;
+                    font-size: 200%;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 70px;
+                    border-radius: 20px;
+                    vertical-align: middle;
+                    box-shadow: 0px 0px 5px 2px #00000090;
+                }
+
+                .hptop a:hover {
+                    background-color: #ffebd3;
+                    color: #ff8d1c;
+                    box-shadow: 0px 0px 2px 5px #ffffff15;
+                }
+            </style>
+            <div class="hptop">
+            <a href="../" onselectstart="return false;" onmousedown="return false;"><!-- javascript:history.back() -->
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+            </a>
+        </div>
+        </main>
+
+        <footer>
+
+            <div class="copy">
+                <p>&copy;opyright 2023 <a href="#"><img src="../WithPy_Cat_.svg" width="100px"></a></p>
+            </div>
+
+        </footer>
+
+
+
+    </div>
+    <!--/#container-->
+
+    <!--jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--パララックス（inview）-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script src="./js/jquery.inview_set.js"></script>
+
+    <!--このテンプレート専用のスクリプト-->
+    <script src="./js/main.js"></script>
+
+    <!--ページの上部へ戻るボタン-->
+    <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
 </body>
+
 </html>
