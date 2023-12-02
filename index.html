@@ -1638,6 +1638,9 @@
             color: white;
         }
 
+        #q {
+            font-size: 30px;
+        }
     </style>
     <script type="text/javascript">
         function NewsPopUp1() {
@@ -1648,7 +1651,7 @@
         }
     </script>
     <div class="top-info">
-        <h1 class="news-title"><!--<img src="./WithPy_Cat_.svg" alt="WithPy™" width="50px">-->お誕生日情報</h1>
+        <h1 class="news-title"><span class="material-symbols-outlined" id="q">celebration</span>&nbsp;&nbsp;お誕生日&nbsp;&nbsp;<span class="material-symbols-outlined" id="q">cake</span></h1>
         <p class="news-bun"><a class="news-link" href="javascript:NewsPopUp1();">¹²/₃&nbsp;るる</a>，<a class="news-link" href="javascript:NewsPopUp2();">¹²/₄&nbsp;Kk</a>&nbsp;おめでとう<i>!!</i></p>
     </div>
     <style data-iml="1658932577473">
@@ -3535,6 +3538,7 @@
 
                 .material-symbols-outlined {
                     font-size: 200%;
+                    user-select: none;
                 }
 
                 .grecaptcha-badge {
