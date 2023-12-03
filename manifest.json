@@ -2,17 +2,17 @@
   "name"              : "WithPy™",
   "short_name"        : "WithPy™",
   "description"       : "Google 検索のできるWithPy™のポータルサイト",
-  "start_url"         : "https://pp-pixel.github.io/ggnonsc/",
-  "id"         : "ggnonsc",
+  "start_url"         : "https://pp-pixel.github.io/withpy/",
+  "id"         : "withpy",
   "display"           : "standalone",
   "background_color"  : "#202124",
   "theme_color"       : "#202124",
   "icons": [{
-      "src"           : "https://pp-pixel.github.io/ggnonsc/icon-192.png",
+      "src"           : "https://pp-pixel.github.io/withpy/icon-192.png",
       "sizes"         : "192x192",
       "type"          : "image/png"
     }, {
-      "src"           : "https://pp-pixel.github.io/ggnonsc/icon-256.png",
+      "src"           : "https://pp-pixel.github.io/withpy/icon-256.png",
       "sizes"         : "256x256",
       "type"          : "image/png"
   }]
