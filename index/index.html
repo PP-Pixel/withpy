@@ -7,7 +7,7 @@
     <link rel="icon" href="../icon-500.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../icon-500.png"><!-- ホームページの正式なURL -->
     <link rel="canonical" href="https://pp-pixel.github.io/withpy/">
-    <meta name="viewport" content="width=device-width,initial-scale=1"/><!-- SNSに埋め込みしたときのURL -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" /><!-- SNSに埋め込みしたときのURL -->
     <meta property="og:url" content="https://pp-pixel.github.io/withpy/" /><!-- ページの種類 -->
     <meta property="og:type" content="website" /><!-- SNSに埋め込みしたときのタイトル -->
     <meta property="og:title" content="WithPy™" /><!-- SNSに埋め込みしたときの説明文 -->
@@ -18,7 +18,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="dark" name="color-scheme">
-	<meta name="theme-color" content="#ff8000">
+    <meta name="theme-color" content="#ff8000">
     <meta content="origin" name="referrer">
     <meta content="WithPybig.png" itemprop="image"><!-- ServiceWorker -->
     <link rel="manifest" href="../manifest.json">
@@ -38,9 +38,11 @@
             });
         }
     </script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/scroll-bar.css">
+    <link rel="stylesheet" href="css/loading.css">
     <style>
         footer {
             margin-top: 10px;
@@ -68,6 +70,10 @@
 </head>
 
 <body>
+
+    <div id="splash">
+        <div id="splash_logo"><img src="../WithPy_Cat_orange.svg" alt="" class="fadeUp"></div>
+    </div>
 
     <div id="container">
 
@@ -327,12 +333,13 @@
                 }
             </style>
             <div class="hptop">
-            <a href="../" onselectstart="return false;" onmousedown="return false;"><!-- javascript:history.back() -->
-                <span class="material-symbols-outlined">
-                    home
-                </span>
-            </a>
-        </div>
+                <a href="../" onselectstart="return false;"
+                    onmousedown="return false;"><!-- javascript:history.back() -->
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                </a>
+            </div>
         </main>
 
         <footer>
@@ -360,6 +367,10 @@
 
     <!--ページの上部へ戻るボタン-->
     <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXv
+ZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/loading.js"></script>
 
 </body>
 
