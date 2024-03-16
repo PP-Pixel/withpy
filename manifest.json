@@ -1,7 +1,7 @@
 {
   "name"              : "WithPy™",
   "short_name"        : "WithPy™",
-  "description"       : "Google 検索のできるWithPy™のポータルサイト",
+  "description"       : "WithPy™のポータルサイト",
   "start_url"         : "https://pp-pixel.github.io/withpy/",
   "id"         : "withpy",
   "display"           : "standalone",
@@ -15,5 +15,13 @@
       "src"           : "https://pp-pixel.github.io/withpy/icon-256.png",
       "sizes"         : "256x256",
       "type"          : "image/png"
-  }]
+    }, {
+      "src"           : "https://pp-pixel.github.io/withpy/icon-500.png",
+      "sizes"         : "500x500",
+      "type"          : "image/png"
+    }, {
+      "src"           : "https://pp-pixel.github.io/withpy/icon-1000.png",
+      "sizes"         : "1000x1000",
+      "type"          : "image/png"
+    }]
 }
