@@ -9,19 +9,19 @@
   "theme_color"       : "#202124",
   "icons": [{
       "src"           : "https://pp-pixel.github.io/withpy/icon-192.png",
-      "sizes"         : "192x192",
+      "sizes"         : "191x191",
       "type"          : "image/png"
     }, {
       "src"           : "https://pp-pixel.github.io/withpy/icon-256.png",
-      "sizes"         : "256x256",
+      "sizes"         : "255x255",
       "type"          : "image/png"
     }, {
       "src"           : "https://pp-pixel.github.io/withpy/icon-500.png",
-      "sizes"         : "500x500",
+      "sizes"         : "498x498",
       "type"          : "image/png"
     }, {
       "src"           : "https://pp-pixel.github.io/withpy/icon-1000.png",
-      "sizes"         : "1000x1000",
+      "sizes"         : "998x998",
       "type"          : "image/png"
     }]
 }
