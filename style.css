@@ -110,7 +110,7 @@ li {
 }
 
 .web {
-    background-image: url(/img/web.svg);
+    background-image: url(./img/web.svg);
     background-repeat: no-repeat;
     background-position: 22px 17px;
     background-size: 30px;
