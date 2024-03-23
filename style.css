@@ -362,8 +362,8 @@ img {
 /* Loading画像中央配置　*/
 #splash_logo {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 49%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
