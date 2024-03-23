@@ -3,8 +3,9 @@
   "short_name"        : "WithPy™",
   "description"       : "WithPy™のポータルサイト",
   "start_url"         : "https://pp-pixel.github.io/withpy/",
-  "id"         : "withpy",
+  "id"                : "withpy",
   "display"           : "standalone",
+  "display_override": ["window-controls-overlay"],
   "background_color"  : "#202124",
   "theme_color"       : "#202124",
   "icons": [{
