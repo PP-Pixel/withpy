@@ -362,14 +362,14 @@ img {
 /* Loading画像中央配置　*/
 #splash_logo {
     position: absolute;
-    top: 49%;
-    left: 49%;
+    top: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 /* Loading アイコンの大きさ設定　*/
 #splash_logo img {
-    width: 60%;
+    width: 100%;
 }
 
 /* fadeUpをするアイコンの動き */
