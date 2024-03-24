@@ -297,6 +297,11 @@ article {
     padding: 10px 5% 10px 5%;
     background-color: bisque;
     font-size: 20px;
+    background-image: url(./img/cat.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 98% bottom;
+    background-size: 100px;
 }
 
 .footer-sp {
@@ -323,6 +328,11 @@ article {
     background-color: #ff9122;
     border-radius: 20px;
     text-decoration: none;
+    background-image: url(./img/cat.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 98% bottom;
+    background-size: 100px;
 }
 
 .grecaptcha-badge {
