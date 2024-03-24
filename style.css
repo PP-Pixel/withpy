@@ -55,7 +55,7 @@ body {
 .side {
     background-color: #ffa34500;
     width: 30%;
-    height: 90vh;
+    height: 100vh;
     font-family: 'Kumbh Sans', 'Noto Sans JP', sans-serif;
 }
 
@@ -132,6 +132,13 @@ li {
 
 .clock_b {
     background-image: url(./img/clock_b.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.clock_ld {
+    background-image: url(./img/clockld.svg);
     background-repeat: no-repeat;
     background-position: 22px 17px;
     background-size: 30px;
