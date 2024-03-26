@@ -20,6 +20,7 @@ body {
     background-attachment: fixed;
     background-position: 98% bottom;
     background-size: 100px;
+    cursor: default;
 }
 
 .pc {
@@ -55,7 +56,8 @@ body {
 .side {
     background-color: #ffa34500;
     width: 30%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 875px;
     font-family: 'Kumbh Sans', 'Noto Sans JP', sans-serif;
 }
 
@@ -66,6 +68,10 @@ body {
     /* text-align: center; */
     margin-left: -5%;
     border-radius: 0px 28px 0px 0px;
+    background-image: url(https://pp-pixel.github.io/images/PP_Pixel-Bugdroid_W.svg);
+    background-repeat: no-repeat;
+    background-position: 10% bottom;
+    background-size: 100px;
 }
 li {
     list-style: none;
